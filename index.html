@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tangney Construction Ltd.</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a href="index.html" class="brand"><img src="assets/logo.png" alt="Tangney Construction Ltd. logo"><span>Tangney Construction Ltd.</span></a>
+    <nav>
+      <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Premium construction & carpentry</p>
+        <h1>Clean, professional building work with a sharp eye for detail.</h1>
+        <p>From renovations and extensions to finish carpentry, Tangney Construction Ltd. delivers dependable workmanship, clear communication, and a refined finish.</p>
+        <div class="actions"><a class="btn" href="contact.html">Request a Quote</a><a class="btn ghost" href="services.html">View Services</a></div>
+      </div>
+    </section>
+
+    <section class="intro grid-3">
+      <div><h3>Renovations</h3><p>Thoughtful upgrades that improve flow, finish, and long-term value.</p></div>
+      <div><h3>Carpentry</h3><p>Precise framing, fitting, trim, doors, floors, and custom timber details.</p></div>
+      <div><h3>Extensions</h3><p>Well-planned additions built with care from structure to final finish.</p></div>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> Tangney Construction Ltd. All rights reserved.</footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
